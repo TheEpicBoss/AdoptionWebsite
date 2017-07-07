@@ -1,0 +1,173 @@
+td{
+    text-align: center;
+    padding: 25px;
+
+    
+} 
+
+#welcomeScreen{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+h1{
+    font-size: 80px;
+    color: purple;
+    
+}
+
+#animalInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    align-content: center;
+    
+    padding-top: 180px;
+}
+
+#emoji{
+    cursor: pointer;
+}
+
+#footer{
+    height: 150px;
+    background-color: #ff9400;
+    display: flex;
+    align-items: center;
+    margin-top: 60px;
+}
+#footer #emoji{
+    padding: 30px;
+    margin-left: 20px;
+    cursor: auto;
+}
+
+#footer a{
+    color: purple;
+    text-decoration: none;
+    font-size: 20;
+}
+
+#footer a:hover{
+    text-decoration: underline;
+    color: #0004ff;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+#profilePhoto{
+    width: 350px;
+    height: auto;
+    overflow: hidden;
+}
+
+h2{
+    font-size: 90px;
+}
+
+#profileInfo{
+    padding-left: 60px;
+}
+
+li{
+    font-size: 40px;
+}
+
+h3{
+    text-align: center;
+    font-size: 25px;
+}
+
+li, p, h3{
+    font-family: 'Multi', sans-serif;
+}
+
+#message{
+    color:purple;
+    font-size: 30px;
+}
+
+a:hover{
+    color: #002eff !important;
+    text-decoration: underline;
+}
+
+#back{
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color:purple;
+}
+
+#back a{
+    border-style: solid;
+    padding: 10px;
+}
+
+#move{
+    display: flex;
+    justify-content: center;
+    height: 70%;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#goUp{
+    position: fixed;
+    bottom: 40px;
+    right: 40px;
+}
+
+table img{
+    width: 175px;
+}
+
+#sidebar{
+    width: 400px;
+    height: auto;
+    margin-right: 50px;
+    text-align: center;
+    padding-top: 0px;
+    padding: 30px;
+    position: sticky;
+    top:10px;
+}
+
+#cost{
+    animation-name: turnRainbow;
+    animation-duration: 3s;
+    animation-iteration-count:infinite;
+}
+
+@keyframes turnRainbow{
+    
+    0% {color:black; font-size:25px}
+    
+    20% {color:red; font-size:30px}
+    
+    40% {color:orange; font-size:35px}
+    
+    60% {color:yellow; font-size:40px}
+    
+    80% {color:green; font-size:45px}
+    
+    100% {color:blue; font-size:50px}
+}
+
